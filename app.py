@@ -18,7 +18,7 @@ def guess_game():
                 print(f"Congratulations! You've guessed the number {random_number} in {attempts} attempts.")
                 break
         except ValueError:
-            print("Please enter a valid integer.")
+            print("Please input a valid entry.")
             continue
 
 if __name__ == "__main__":
